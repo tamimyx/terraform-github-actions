@@ -140,5 +140,8 @@ jobs:
           echo "--- Inhalt im Terraform-Ordner ---"
           ls -la
 
+      - name: Move Plan to Working Directory
+        run: cp ${{ github.workspace }}/tfplan .
+
       - name: Terraform Apply
         run: terraform apply -auto-approve tfplan
