@@ -118,6 +118,6 @@ resource "azurerm_resource_group" "rg-aks" {
   location = var.location
 
   tags = {
-    "Foo " = "Works"
+    "Foo" = "Works"
   }
 }
