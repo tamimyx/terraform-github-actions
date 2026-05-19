@@ -24,8 +24,6 @@ jobs:
       run:
         working-directory: ./terraform
 
-    env:
-      ARM_SKIP_PROVIDER_REGISTRATION: true
     outputs:
       tfplanExitCode: ${{ steps.tf-plan.outputs.exitcode }}
 
