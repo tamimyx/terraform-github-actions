@@ -1,5 +1,5 @@
-resource_group_name        = "rg-terraform-github-actions"
-location                   = "Germany West Central"
+resource_group_name = "rg-terraform-github-actions"
+location            = "Germany West Central"
 
 github_org                 = "tamimyx"
 github_repo                = "terraform-github-actions"
