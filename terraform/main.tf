@@ -25,7 +25,9 @@ provider "azurerm" {
   use_oidc = true
 }
 
-provider "azuread" {}
+provider "azuread" {
+  use_oidc = true
+}
 
 resource "azuread_application" "terraform_rw" {
   display_name = "terraform-rw"
