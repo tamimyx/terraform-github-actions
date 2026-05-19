@@ -11,12 +11,12 @@ variable "github_repo" {
 }
 
 variable "production_environment" {
-  type = string
+  type    = string
   default = "production"
 }
 
 variable "main_branch" {
-  type = string
+  type    = string
   default = "main"
 }
 
